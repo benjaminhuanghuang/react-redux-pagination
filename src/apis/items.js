@@ -107,6 +107,6 @@ const ITEMS = [
   /* eslint-disable-next-line */
   export const fetchItems = () => {
     return new Promise((resolve) => {
-      window.setTimeout(() => resolve(ITEMS), 1000);
+      window.setTimeout(() => resolve(ITEMS), 5000);
     });
   };
