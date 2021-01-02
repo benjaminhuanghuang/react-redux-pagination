@@ -5,6 +5,12 @@
 
 
 
+## Update all packages
+```
+    npx npm-check-updates  -u
+```
 ## Cache
     https://github.com/reduxjs/reselect
     https://www.jianshu.com/p/1fcef4c892ba
+
+

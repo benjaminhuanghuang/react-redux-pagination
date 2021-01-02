@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
+import 'bootstrap/dist/css/bootstrap.min.css';
+//
+import Demo from './game-demo/AppGameDemo'
 
-ReactDOM.render(<App />, document.getElementById('root'));
+
+ReactDOM.render(<Demo />, document.getElementById('root'));
 registerServiceWorker();

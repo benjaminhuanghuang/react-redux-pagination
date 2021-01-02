@@ -3,26 +3,41 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.3.2",
-    "react-dom": "^16.3.2",
-    "react-scripts": "1.1.4",
-    "prop-types": "^15.6.1",
-    "redux": "^4.0.0",
-    "react-redux": "^5.0.7",
-    "redux-thunk": "^2.2.0",
-    "reselect": "^3.0.1"
+    "axios": "^0.21.1",
+    "bootstrap": "^4.5.3",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.4.0",
+    "react-dom": "^17.0.1",
+    "react-redux": "^7.2.2",
+    "react-scripts": "4.0.1",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "reselect": "^4.0.0"
   },
   "scripts": {
-    "start": "PORT=3030 react-scripts start",
+    "start": "PORT=3721 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "eslint": "^4.9.0",
-    "eslint-config-airbnb": "^16.1.0",
-    "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-jsx-a11y": "6.0.2",
-    "eslint-plugin-react": "^7.4.0"
+    "eslint": "^7.16.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "6.4.1",
+    "eslint-plugin-react": "^7.22.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
